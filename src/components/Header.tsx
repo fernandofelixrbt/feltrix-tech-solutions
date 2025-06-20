@@ -10,9 +10,8 @@ const Header = () => {
             <img 
               src="/lovable-uploads/6d952db2-159d-4c28-9cea-0224306dbe0a.png" 
               alt="Feltrix Logo" 
-              className="h-[70px] max-h-[70px] w-auto object-contain"
-              style={{ marginRight: "80px" }}
-            />
+              className="w-auto"
+              style={{ height: "70px", maxHeight: "70px", objectFit: "contain", marginRight: "30px" }}
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
