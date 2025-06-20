@@ -16,26 +16,25 @@ const HeroSection = () => {
 
   return (
     <>
-      <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden hero-gradient">
-        {/* Content */}
-        <div className="container mx-auto px-6 py-20 relative z-20">
-          <div className="max-w-5xl mx-auto text-left">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 animate-fade-in leading-tight">
+      <section id="home" className="relative min-h-screen flex items-center overflow-hidden hero-gradient">
+        <div className="w-full px-10 md:px-10" style={{ paddingTop: '120px' }}>
+          <div className="max-w-[800px]">
+            <h1 className="text-[32px] md:text-[48px] font-bold text-white mb-4 leading-tight text-left">
               Feltrix Soluções<br />
               Tecnologia que Conecta{' '}
-              <span className="text-feltrix-orange">Desempenho</span>
+              <span className="text-[#F97316]">Desempenho</span>
             </h1>
             
-            <h2 className="text-lg md:text-xl lg:text-2xl text-feltrix-light mb-8 animate-slide-in-left font-medium">
+            <h2 className="text-[16px] md:text-[20px] text-white mb-4 font-medium text-left">
               Especialistas em soluções de alta performance para a indústria de fibrocimento
             </h2>
             
-            <p className="text-base md:text-lg text-feltrix-steel mb-12 animate-fade-in max-w-3xl">
+            <p className="text-[14px] md:text-[16px] text-[#C0C0C0] mb-6 text-left leading-relaxed">
               Na Feltrix, unimos tecnologia, engenharia de materiais e precisão industrial para maximizar sua produtividade. 
               Nossas telas metálicas com solda a laser garantem mais durabilidade, eficiência e desempenho contínuo em processos Hatscheck.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-6 animate-scale-in">
+            <div className="flex flex-col md:flex-row gap-4 text-left">
               <Button 
                 size="lg" 
                 onClick={() => openModal('orcamento')}
@@ -55,7 +54,6 @@ const HeroSection = () => {
           </div>
         </div>
         
-        {/* Decorative elements */}
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-feltrix-navy to-transparent z-10"></div>
       </section>
 
