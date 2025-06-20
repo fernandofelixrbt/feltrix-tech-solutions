@@ -7,9 +7,9 @@ const Header = () => {
         <nav className="flex items-center justify-between">
           
           {/* Texto "Feltrix" como substituto temporário da Logo */}
-          <div className="flex items-center" style={{ height: '70px', marginRight: '30px' }}>
+          <div className="flex items-center" style={{ height: '70px', marginRight: '15px' }}>
             <span className="text-white text-3xl font-extrabold tracking-wide uppercase">
-              FELTRIX SOLUÇÔES
+              FELTRIX SOLUÇÕES
             </span>
           </div>
 
