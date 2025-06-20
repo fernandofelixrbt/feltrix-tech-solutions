@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
+import { supabase } from '@/integrations/supabase/client';
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({
@@ -13,22 +14,45 @@ const ContactSection = () => {
     telefone: '',
     mensagem: ''
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    toast({
-      title: "Mensagem enviada!",
-      description: "Entraremos em contato em breve para maximizar seus resultados.",
-    });
-    setFormData({
-      nome: '',
-      email: '',
-      empresa: '',
-      telefone: '',
-      mensagem: ''
-    });
+    setIsSubmitting(true);
+
+    try {
+      const { data, error } = await supabase.functions.invoke('send-contact-email', {
+        body: {
+          ...formData,
+          tipo: 'contato'
+        }
+      });
+
+      if (error) throw error;
+
+      toast({
+        title: "Mensagem enviada!",
+        description: "Entraremos em contato em breve para maximizar seus resultados.",
+      });
+      
+      setFormData({
+        nome: '',
+        email: '',
+        empresa: '',
+        telefone: '',
+        mensagem: ''
+      });
+    } catch (error) {
+      console.error('Error:', error);
+      toast({
+        title: "Erro ao enviar mensagem",
+        description: "Tente novamente ou entre em contato diretamente.",
+        variant: "destructive"
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -67,6 +91,7 @@ const ContactSection = () => {
                     onChange={handleChange}
                     className="bg-feltrix-navy/50 border-feltrix-steel/50 text-white placeholder:text-feltrix-steel focus:border-feltrix-orange"
                     placeholder="Seu nome completo"
+                    disabled={isSubmitting}
                   />
                 </div>
                 
@@ -83,6 +108,7 @@ const ContactSection = () => {
                     onChange={handleChange}
                     className="bg-feltrix-navy/50 border-feltrix-steel/50 text-white placeholder:text-feltrix-steel focus:border-feltrix-orange"
                     placeholder="seu@email.com"
+                    disabled={isSubmitting}
                   />
                 </div>
               </div>
@@ -100,6 +126,7 @@ const ContactSection = () => {
                     onChange={handleChange}
                     className="bg-feltrix-navy/50 border-feltrix-steel/50 text-white placeholder:text-feltrix-steel focus:border-feltrix-orange"
                     placeholder="Nome da sua empresa"
+                    disabled={isSubmitting}
                   />
                 </div>
                 
@@ -115,6 +142,7 @@ const ContactSection = () => {
                     onChange={handleChange}
                     className="bg-feltrix-navy/50 border-feltrix-steel/50 text-white placeholder:text-feltrix-steel focus:border-feltrix-orange"
                     placeholder="(11) 99999-9999"
+                    disabled={isSubmitting}
                   />
                 </div>
               </div>
@@ -131,15 +159,17 @@ const ContactSection = () => {
                   onChange={handleChange}
                   className="bg-feltrix-navy/50 border-feltrix-steel/50 text-white placeholder:text-feltrix-steel focus:border-feltrix-orange resize-none"
                   placeholder="Conte-nos sobre seu projeto ou necessidade..."
+                  disabled={isSubmitting}
                 />
               </div>
               
               <Button 
                 type="submit"
                 size="lg"
-                className="w-full bg-feltrix-orange hover:bg-feltrix-orange/90 text-white py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105"
+                disabled={isSubmitting}
+                className="w-full bg-feltrix-orange hover:bg-feltrix-orange/90 text-white py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 disabled:transform-none disabled:opacity-70"
               >
-                Enviar Mensagem
+                {isSubmitting ? 'Enviando...' : 'Enviar Mensagem'}
               </Button>
             </form>
           </div>
