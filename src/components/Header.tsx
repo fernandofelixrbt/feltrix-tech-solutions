@@ -6,11 +6,11 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-feltrix-dark-blue/95 backdrop-blur-sm border-b border-feltrix-graphite/30">
       <div className="container mx-auto px-6 py-4">
         <nav className="flex items-center justify-between">
-          <div className="flex items-center w-48 h-12">
+          <div className="flex items-center">
             <img 
               src="/lovable-uploads/6d952db2-159d-4c28-9cea-0224306dbe0a.png" 
               alt="Feltrix Logo" 
-              className="h-full w-full object-contain"
+              className="h-14 w-auto"
             />
           </div>
           
