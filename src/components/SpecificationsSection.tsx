@@ -26,38 +26,37 @@ const SpecificationsSection = () => {
   ];
 
   return (
-    <section id="especificacoes" className="py-[120px] section-gradient">
-      <div className="px-5 md:px-10">
-        <div className="max-w-[800px]">
-          <h2 className="text-[32px] md:text-[40px] font-bold text-white mb-4 text-left">
-            Material e <span className="text-feltrix-orange">Especificações</span>
+    <section id="especificacoes" className="py-20 section-gradient">
+      <div className="container mx-auto px-6">
+        <div className="max-w-4xl mx-auto text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
+            Especificações <span className="text-feltrix-orange">Técnicas</span>
           </h2>
-          <p className="text-[16px] md:text-[18px] text-feltrix-light mb-8 text-left">
+          <p className="text-xl text-feltrix-light">
             Dados técnicos precisos que garantem a qualidade e performance de nossas soluções
           </p>
-          
-          <div className="grid md:grid-cols-2 gap-4 mb-8">
-            {specifications.map((spec, index) => (
-              <div 
-                key={index}
-                className="bg-feltrix-dark-blue/60 backdrop-blur-sm rounded-xl p-6 border border-feltrix-steel/30"
-                style={{ backgroundColor: 'rgba(45, 55, 72, 0.3)' }}
-              >
-                <h3 className="text-[16px] md:text-[18px] font-bold text-feltrix-orange mb-2 text-left">{spec.title}</h3>
-                <div className="text-[18px] md:text-[20px] font-bold text-white mb-3 text-left">{spec.value}</div>
-                <p className="text-[14px] text-feltrix-light text-left leading-relaxed">{spec.description}</p>
-              </div>
-            ))}
-          </div>
-          
-          <div className="bg-gradient-to-r from-feltrix-graphite/40 to-feltrix-navy/40 rounded-2xl p-6 border border-feltrix-orange/20">
-            <h3 className="text-[20px] md:text-[24px] font-bold text-white mb-4 text-left">Certificações e Garantias</h3>
-            <p className="text-feltrix-light text-left text-[14px] md:text-[16px]">
-              Todos os nossos produtos seguem rigorosos padrões de qualidade internacional, 
-              com certificações que garantem conformidade com as normas técnicas mais exigentes 
-              da indústria de fibrocimento.
-            </p>
-          </div>
+        </div>
+        
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+          {specifications.map((spec, index) => (
+            <div 
+              key={index}
+              className="bg-feltrix-dark-blue/60 backdrop-blur-sm rounded-xl p-6 border border-feltrix-steel/30 hover:border-feltrix-orange/50 transition-all duration-300 transform hover:scale-105"
+            >
+              <h3 className="text-lg font-bold text-feltrix-orange mb-2">{spec.title}</h3>
+              <div className="text-2xl font-bold text-white mb-3">{spec.value}</div>
+              <p className="text-sm text-feltrix-light leading-relaxed">{spec.description}</p>
+            </div>
+          ))}
+        </div>
+        
+        <div className="mt-16 max-w-4xl mx-auto bg-gradient-to-r from-feltrix-graphite/40 to-feltrix-navy/40 rounded-2xl p-8 border border-feltrix-orange/20">
+          <h3 className="text-2xl font-bold text-white mb-4 text-center">Certificações e Garantias</h3>
+          <p className="text-feltrix-light text-center">
+            Todos os nossos produtos seguem rigorosos padrões de qualidade internacional, 
+            com certificações que garantem conformidade com as normas técnicas mais exigentes 
+            da indústria de fibrocimento.
+          </p>
         </div>
       </div>
     </section>
