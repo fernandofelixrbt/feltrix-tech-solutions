@@ -3,17 +3,17 @@ import React from 'react';
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-feltrix-dark-blue/95 backdrop-blur-sm border-b border-feltrix-graphite/30">
-      <div className="container mx-auto px-6 py-4">
+      <div className="container mx-auto px-5 py-4">
         <nav className="flex items-center justify-between">
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center pl-5 pt-4">
             <img 
               src="/lovable-uploads/92631688-ab82-4a22-87bc-3410d1274f16.png" 
               alt="Feltrix Logo" 
-              className="h-12 w-auto"
+              className="h-[50px] md:h-[70px] w-auto"
             />
           </div>
           
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-8 ml-8">
             <a 
               href="#home" 
               className="text-feltrix-light hover:text-feltrix-orange transition-colors duration-300 font-medium"
