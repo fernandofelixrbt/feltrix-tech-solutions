@@ -6,20 +6,11 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <nav className="flex items-center justify-between">
           
-          {/* Logo Feltrix com ajuste de altura */}
-          <div className="flex items-center" style={{ height: '70px' }}>
-            <img
-              src="/lovable-uploads/6d952db2-159d-4c28-9cea-0224306dbe0a.png"
-              alt="Feltrix Logo"
-              className="w-auto"
-              style={{
-                height: '70px',
-                maxHeight: '70px',
-                objectFit: 'contain',
-                marginRight: '30px',
-                display: 'block',
-              }}
-            />
+          {/* Texto "Feltrix" como substituto temporário da Logo */}
+          <div className="flex items-center" style={{ height: '70px', marginRight: '30px' }}>
+            <span className="text-white text-3xl font-extrabold tracking-wide uppercase">
+              FELTRIX SOLUÇÔES
+            </span>
           </div>
 
           {/* Menu Desktop */}
@@ -76,4 +67,3 @@ const Header = () => {
 };
 
 export default Header;
-
