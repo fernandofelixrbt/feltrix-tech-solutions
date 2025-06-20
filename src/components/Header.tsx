@@ -8,7 +8,7 @@ const Header = () => {
         <nav className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <img 
-              src="/lovable-uploads/6d952db2-159d-4c28-9cea-0224306dbe0a.png" 
+              src="/lovable-uploads/92631688-ab82-4a22-87bc-3410d1274f16.png" 
               alt="Feltrix Logo" 
               className="h-8 w-auto"
             />
