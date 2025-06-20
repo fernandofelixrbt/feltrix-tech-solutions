@@ -6,8 +6,9 @@ const Header = () => {
       <div className="w-full px-2 py-4">
         <nav className="flex items-center justify-between">
           
-          {/* Logo da Feltrix (símbolo sem texto) */}
-          <div className="flex items-center" style={{ height: '70px', marginRight: '30px' }}>
+          {/* Bloco com Logo + Texto */}
+          <div className="flex items-center space-x-2" style={{ height: '70px', marginRight: '30px' }}>
+            {/* Logo */}
             <img
               src="/lovable-uploads/Logo_Feltrix.png"
               alt="Feltrix Logo"
@@ -19,6 +20,11 @@ const Header = () => {
                 display: 'block'
               }}
             />
+
+            {/* Texto ao lado da logo */}
+            <span className="text-white text-xl font-bold tracking-wide uppercase">
+              FELTRIX SOLUÇÕES
+            </span>
           </div>
 
           {/* Menu Desktop */}
