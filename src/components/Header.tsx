@@ -3,11 +3,11 @@ import React from 'react';
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-feltrix-dark-blue/95 backdrop-blur-sm border-b border-feltrix-graphite/30">
-      <div className="container mx-auto px-4 py-4"> {/* Ajuste: Reduzi o padding horizontal de 6 para 4 */}
+      <div className="w-full px-2 py-4"> {/* Tirei o container mx-auto e reduzi o padding horizontal */}
         <nav className="flex items-center justify-between">
           
-          {/* Texto "Feltrix" com fonte menor e mais à esquerda */}
-          <div className="flex items-center" style={{ height: '40px', marginRight: '10px' }}>
+          {/* Texto "Feltrix Soluções" colado na esquerda */}
+          <div className="flex items-center ml-0" style={{ height: '40px', marginRight: '10px' }}>
             <span className="text-white text-xl font-bold tracking-wide uppercase">
               FELTRIX SOLUÇÕES
             </span>
