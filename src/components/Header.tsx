@@ -3,13 +3,13 @@ import React from 'react';
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-feltrix-dark-blue/95 backdrop-blur-sm border-b border-feltrix-graphite/30">
-      <div className="container mx-auto px-6 py-4">
+      <div className="container mx-auto px-4 py-4"> {/* Ajuste: Reduzi o padding horizontal de 6 para 4 */}
         <nav className="flex items-center justify-between">
           
-          {/* Texto "Feltrix" como substituto temporário da Logo */}
-          <div className="flex items-center" style={{ height: '50px', marginRight: '5px' }}>
-            <span className="text-white text-3xl font-extrabold tracking-wide uppercase">
-              FELTRIX SOLUÇÕES
+          {/* Texto "Feltrix" com fonte menor e mais à esquerda */}
+          <div className="flex items-center" style={{ height: '70px', marginRight: '30px' }}>
+            <span className="text-white text-2xl font-bold tracking-wide uppercase">
+              FELTRIX
             </span>
           </div>
 
