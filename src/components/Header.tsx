@@ -1,6 +1,17 @@
+
 import React from 'react';
+import { Download } from 'lucide-react';
 
 const Header = () => {
+  const handleDownloadPDF = () => {
+    const link = document.createElement('a');
+    link.href = '/lovable-uploads/Feltrix_Pitch_Deck.pdf';
+    link.download = 'Feltrix_Apresentacao_Comercial.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-feltrix-dark-blue/95 backdrop-blur-sm border-b border-feltrix-graphite/30">
       <div className="w-full px-2 py-4">
@@ -34,6 +45,15 @@ const Header = () => {
             <a href="#diferenciais" className="text-feltrix-light hover:text-feltrix-orange transition-colors duration-300 font-medium">Diferenciais</a>
             <a href="#especificacoes" className="text-feltrix-light hover:text-feltrix-orange transition-colors duration-300 font-medium">Especificações</a>
             <a href="#contato" className="text-feltrix-light hover:text-feltrix-orange transition-colors duration-300 font-medium">Contato</a>
+            
+            {/* Botão de Download da Apresentação */}
+            <button
+              onClick={handleDownloadPDF}
+              className="bg-feltrix-orange hover:bg-feltrix-orange/90 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg shadow-feltrix-orange/30 flex items-center space-x-2"
+            >
+              <Download className="w-4 h-4" />
+              <span>Download da Apresentação</span>
+            </button>
           </div>
 
           {/* Mobile Menu Button */}
