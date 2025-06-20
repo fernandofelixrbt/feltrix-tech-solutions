@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Header = () => {
@@ -10,7 +9,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/92631688-ab82-4a22-87bc-3410d1274f16.png" 
               alt="Feltrix Logo" 
-              className="h-8 w-auto"
+              className="h-12 w-auto"
             />
           </div>
           
