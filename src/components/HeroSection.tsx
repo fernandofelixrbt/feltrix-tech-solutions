@@ -5,15 +5,6 @@ import { Button } from '@/components/ui/button';
 const HeroSection = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden hero-gradient">
-      {/* Background Logo - Elemento visual de apoio */}
-      <div 
-        className="absolute top-1/2 right-0 transform -translate-y-1/2 translate-x-1/4 w-[520px] h-[520px] md:w-[780px] md:h-[780px] lg:w-[1040px] lg:h-[1040px] opacity-40 bg-no-repeat bg-contain z-5 pointer-events-none"
-        style={{
-          backgroundImage: `url('/lovable-uploads/6d952db2-159d-4c28-9cea-0224306dbe0a.png')`,
-          filter: 'brightness(3) contrast(1.8) saturate(2) hue-rotate(15deg)',
-        }}
-      />
-      
       {/* Content */}
       <div className="container mx-auto px-6 py-20 relative z-20">
         <div className="max-w-5xl mx-auto text-left">
