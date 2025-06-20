@@ -10,8 +10,8 @@ endobj
 2 0 obj
 <<
 /Type /Pages
-/Kids [3 0 R]
-/Count 1
+/Kids [3 0 R 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R]
+/Count 8
 >>
 endobj
 
@@ -20,10 +20,12 @@ endobj
 /Type /Page
 /Parent 2 0 R
 /MediaBox [0 0 612 792]
-/Contents 4 0 R
+/Contents 11 0 R
 /Resources <<
 /Font <<
-/F1 5 0 R
+/F1 12 0 R
+/F2 13 0 R
+/F3 14 0 R
 >>
 >>
 >>
@@ -31,28 +33,172 @@ endobj
 
 4 0 obj
 <<
-/Length 200
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 15 0 R
+/Resources <<
+/Font <<
+/F1 12 0 R
+/F2 13 0 R
+/F3 14 0 R
 >>
-stream
-BT
-/F1 24 Tf
-100 700 Td
-(FELTRIX SOLUÇÕES) Tj
-0 -50 Td
-/F1 18 Tf
-(Tecnologia que Conecta Desempenho) Tj
-0 -100 Td
-/F1 12 Tf
-(Apresentação Comercial - Pitch Deck) Tj
-0 -30 Td
-(Este é um arquivo temporário.) Tj
-0 -30 Td
-(Substitua por seu pitch deck final.) Tj
-ET
-endstream
+>>
+>>
 endobj
 
 5 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 16 0 R
+/Resources <<
+/Font <<
+/F1 12 0 R
+/F2 13 0 R
+/F3 14 0 R
+>>
+>>
+>>
+endobj
+
+6 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 17 0 R
+/Resources <<
+/Font <<
+/F1 12 0 R
+/F2 13 0 R
+/F3 14 0 R
+>>
+>>
+>>
+endobj
+
+7 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 18 0 R
+/Resources <<
+/Font <<
+/F1 12 0 R
+/F2 13 0 R
+/F3 14 0 R
+>>
+>>
+>>
+endobj
+
+8 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 19 0 R
+/Resources <<
+/Font <<
+/F1 12 0 R
+/F2 13 0 R
+/F3 14 0 R
+>>
+>>
+>>
+endobj
+
+9 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 20 0 R
+/Resources <<
+/Font <<
+/F1 12 0 R
+/F2 13 0 R
+/F3 14 0 R
+>>
+>>
+>>
+endobj
+
+10 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 21 0 R
+/Resources <<
+/Font <<
+/F1 12 0 R
+/F2 13 0 R
+/F3 14 0 R
+>>
+>>
+>>
+endobj
+
+11 0 obj
+<<
+/Length 800
+>>
+stream
+BT
+/F1 48 Tf
+1 0.4 0 RG
+306 600 Td
+(FELTRIX) Tj
+0 -60 Td
+/F2 24 Tf
+1 1 1 RG
+-50 0 Td
+(SOLUÇÕES INDUSTRIAIS) Tj
+0 -150 Td
+/F1 36 Tf
+1 0.4 0 RG
+-100 0 Td
+(Tecnologia que Conecta) Tj
+0 -50 Td
+(DESEMPENHO) Tj
+0 -100 Td
+/F2 18 Tf
+1 1 1 RG
+-80 0 Td
+(Especialistas em Soluções de Alta Performance) Tj
+0 -30 Td
+(para a Indústria de Fibrocimento) Tj
+0 -80 Td
+/F3 14 Tf
+0.7 0.7 0.7 RG
+(Apresentação Comercial | 2024) Tj
+ET
+q
+0.05 0.1 0.2 RG
+50 50 512 692 re
+S
+Q
+q
+1 0.4 0 RG
+60 60 492 20 re
+f
+Q
+endstream
+endobj
+
+12 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+endobj
+
+13 0 obj
 <<
 /Type /Font
 /Subtype /Type1
@@ -60,19 +206,507 @@ endobj
 >>
 endobj
 
+14 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Oblique
+>>
+endobj
+
+15 0 obj
+<<
+/Length 1000
+>>
+stream
+BT
+/F1 32 Tf
+1 0.4 0 RG
+306 700 Td
+(SOBRE A FELTRIX) Tj
+0 -80 Td
+/F2 16 Tf
+1 1 1 RG
+-200 0 Td
+(Quem Somos) Tj
+0 -40 Td
+/F3 12 Tf
+0.9 0.9 0.9 RG
+(Somos especialistas em engenharia de materiais e) Tj
+0 -20 Td
+(tecnologia industrial, focados em maximizar a) Tj
+0 -20 Td
+(performance de processos na indústria de fibrocimento.) Tj
+0 -40 Td
+/F2 16 Tf
+1 1 1 RG
+(Nosso Propósito) Tj
+0 -30 Td
+/F3 12 Tf
+0.9 0.9 0.9 RG
+(Conectar tecnologia avançada com desempenho) Tj
+0 -20 Td
+(industrial, oferecendo soluções que garantem:) Tj
+0 -30 Td
+(• Maior durabilidade dos equipamentos) Tj
+0 -20 Td
+(• Redução significativa de perdas) Tj
+0 -20 Td
+(• Otimização de processos produtivos) Tj
+0 -20 Td
+(• Sustentabilidade operacional) Tj
+0 -40 Td
+/F2 16 Tf
+1 1 1 RG
+(Nossa Expertise) Tj
+0 -30 Td
+/F3 12 Tf
+0.9 0.9 0.9 RG
+(Anos de experiência em soluções para máquinas) Tj
+0 -20 Td
+(Hatscheck, com foco em telas metálicas de alta) Tj
+0 -20 Td
+(performance com tecnologia de solda a laser.) Tj
+ET
+q
+0.05 0.1 0.2 RG
+50 50 512 692 re
+S
+Q
+endstream
+endobj
+
+16 0 obj
+<<
+/Length 950
+>>
+stream
+BT
+/F1 32 Tf
+1 0.4 0 RG
+306 700 Td
+(PRINCIPAIS SOLUÇÕES) Tj
+0 -80 Td
+/F2 18 Tf
+1 1 1 RG
+-150 0 Td
+(Telas Metálicas com Solda a Laser) Tj
+0 -50 Td
+/F3 14 Tf
+0.9 0.9 0.9 RG
+(Nossa solução principal: tela metálica de alta performance) Tj
+0 -25 Td
+(para máquinas Hatscheck, otimizando o revestimento de) Tj
+0 -25 Td
+(tamizes com máxima durabilidade e eficiência.) Tj
+0 -50 Td
+/F2 16 Tf
+1 0.4 0 RG
+(▲ CARACTERÍSTICAS PRINCIPAIS) Tj
+0 -40 Td
+/F3 12 Tf
+1 1 1 RG
+(✓ Material: Aço Inox 316L de alta resistência) Tj
+0 -25 Td
+(✓ Construção: Malha 2x1 com solda a laser) Tj
+0 -25 Td
+(✓ Resistência: 47Kgf/cm na solda) Tj
+0 -25 Td
+(✓ Área Aberta: 31-32% otimizada) Tj
+0 -25 Td
+(✓ Diâmetros precisos: MD 0,25mm / PMD 0,28mm) Tj
+0 -50 Td
+/F2 16 Tf
+1 0.4 0 RG
+(▲ APLICAÇÕES) Tj
+0 -30 Td
+/F3 12 Tf
+1 1 1 RG
+(• Revestimento de tamizes em máquinas Hatscheck) Tj
+0 -20 Td
+(• Filtragem de precisão em processos de fibrocimento) Tj
+0 -20 Td
+(• Sistemas de reaproveitamento de água) Tj
+ET
+q
+0.05 0.1 0.2 RG
+50 50 512 692 re
+S
+Q
+endstream
+endobj
+
+17 0 obj
+<<
+/Length 1100
+>>
+stream
+BT
+/F1 32 Tf
+1 0.4 0 RG
+306 700 Td
+(DIFERENCIAIS TÉCNICOS) Tj
+0 -80 Td
+/F2 20 Tf
+1 1 1 RG
+-250 0 Td
+(Por que escolher a Feltrix?) Tj
+0 -60 Td
+/F1 18 Tf
+1 0.4 0 RG
+(1. DURABILIDADE SUPERIOR) Tj
+0 -30 Td
+/F3 12 Tf
+0.9 0.9 0.9 RG
+(• Aço Inox 316L com resistência excepcional à corrosão) Tj
+0 -20 Td
+(• Solda a laser de 47Kgf/cm para máxima robustez) Tj
+0 -20 Td
+(• Longevidade excepcional em ambientes industriais) Tj
+0 -40 Td
+/F1 18 Tf
+1 0.4 0 RG
+(2. EFICIÊNCIA OPERACIONAL) Tj
+0 -30 Td
+/F3 12 Tf
+0.9 0.9 0.9 RG
+(• 31-32% de área aberta para máximo fluxo) Tj
+0 -20 Td
+(• Redução significativa de perdas de finos) Tj
+0 -20 Td
+(• Otimização do sistema de reaproveitamento de água) Tj
+0 -40 Td
+/F1 18 Tf
+1 0.4 0 RG
+(3. PRECISÃO DIMENSIONAL) Tj
+0 -30 Td
+/F3 12 Tf
+0.9 0.9 0.9 RG
+(• Malha 2x1 com especificações rigorosas) Tj
+0 -20 Td
+(• Controle preciso de filtragem) Tj
+0 -20 Td
+(• Instalação rápida e minimização de paradas) Tj
+0 -50 Td
+/F2 14 Tf
+1 0.4 0 RG
+(RESULTADO: Maior produtividade e menor custo operacional) Tj
+ET
+q
+0.05 0.1 0.2 RG
+50 50 512 692 re
+S
+Q
+endstream
+endobj
+
+18 0 obj
+<<
+/Length 900
+>>
+stream
+BT
+/F1 32 Tf
+1 0.4 0 RG
+306 700 Td
+(ESPECIFICAÇÕES TÉCNICAS) Tj
+0 -80 Td
+/F2 16 Tf
+1 1 1 RG
+-200 0 Td
+(Dados Técnicos Precisos) Tj
+0 -60 Td
+q
+1 0.4 0 RG
+80 520 100 30 re
+f
+Q
+BT
+/F1 14 Tf
+1 1 1 RG
+130 535 Td
+(MATERIAL) Tj
+0 -20 Td
+/F3 12 Tf
+(Aço Inox 316L) Tj
+ET
+q
+0.2 0.3 0.4 RG
+200 520 120 30 re
+f
+Q
+BT
+/F1 14 Tf
+1 1 1 RG
+260 535 Td
+(DIÂMETRO DOS FIOS) Tj
+0 -20 Td
+/F3 12 Tf
+(MD 0,25mm / PMD 0,28mm) Tj
+ET
+q
+1 0.4 0 RG
+80 460 100 30 re
+f
+Q
+BT
+/F1 14 Tf
+1 1 1 RG
+130 475 Td
+(ÁREA ABERTA) Tj
+0 -20 Td
+/F3 12 Tf
+(31-32%) Tj
+ET
+q
+0.2 0.3 0.4 RG
+200 460 120 30 re
+f
+Q
+BT
+/F1 14 Tf
+1 1 1 RG
+260 475 Td
+(CONSTRUÇÃO) Tj
+0 -20 Td
+/F3 12 Tf
+(Malha 2x1 - Solda Laser) Tj
+ET
+q
+1 0.4 0 RG
+80 400 220 30 re
+f
+Q
+BT
+/F1 14 Tf
+1 1 1 RG
+190 415 Td
+(RESISTÊNCIA NA SOLDA) Tj
+0 -20 Td
+/F3 12 Tf
+(47Kgf/cm) Tj
+ET
+BT
+/F2 14 Tf
+1 1 1 RG
+80 350 Td
+(Qualidade garantida por rigoroso controle de processo) Tj
+0 -20 Td
+(e testes de resistência em laboratório.) Tj
+ET
+endstream
+endobj
+
+19 0 obj
+<<
+/Length 1000
+>>
+stream
+BT
+/F1 32 Tf
+1 0.4 0 RG
+306 700 Td
+(BENEFÍCIOS REAIS) Tj
+0 -80 Td
+/F2 18 Tf
+1 1 1 RG
+-150 0 Td
+(Casos de Uso e Ganhos Comprovados) Tj
+0 -60 Td
+/F1 16 Tf
+1 0.4 0 RG
+(⚡ GANHOS DE PRODUTIVIDADE) Tj
+0 -40 Td
+/F3 12 Tf
+0.9 0.9 0.9 RG
+(• Redução de até 30% no tempo de instalação) Tj
+0 -20 Td
+(• Menor frequência de manutenções) Tj
+0 -20 Td
+(• Aumento da disponibilidade dos equipamentos) Tj
+0 -20 Td
+(• Maior estabilidade no processo produtivo) Tj
+0 -40 Td
+/F1 16 Tf
+1 0.4 0 RG
+(💰 REDUÇÃO DE CUSTOS) Tj
+0 -40 Td
+/F3 12 Tf
+0.9 0.9 0.9 RG
+(• Diminuição significativa de perdas de finos) Tj
+0 -20 Td
+(• Melhor aproveitamento da matéria-prima) Tj
+0 -20 Td
+(• Redução no consumo de água) Tj
+0 -20 Td
+(• Menor necessidade de reposição de peças) Tj
+0 -40 Td
+/F1 16 Tf
+1 0.4 0 RG
+(🌱 SUSTENTABILIDADE) Tj
+0 -40 Td
+/F3 12 Tf
+0.9 0.9 0.9 RG
+(• Sistema otimizado de reaproveitamento de água) Tj
+0 -20 Td
+(• Redução de resíduos no processo) Tj
+0 -20 Td
+(• Maior vida útil dos equipamentos) Tj
+ET
+q
+0.05 0.1 0.2 RG
+50 50 512 692 re
+S
+Q
+endstream
+endobj
+
+20 0 obj
+<<
+/Length 800
+>>
+stream
+BT
+/F1 36 Tf
+1 0.4 0 RG
+306 650 Td
+(PRÓXIMOS PASSOS) Tj
+0 -100 Td
+/F2 20 Tf
+1 1 1 RG
+-100 0 Td
+(Solicite uma visita técnica) Tj
+0 -30 Td
+(ou peça seu orçamento agora!) Tj
+0 -80 Td
+/F3 14 Tf
+0.9 0.9 0.9 RG
+(Nossa equipe técnica especializada está pronta para) Tj
+0 -25 Td
+(avaliar suas necessidades e apresentar a solução) Tj
+0 -25 Td
+(ideal para sua operação.) Tj
+0 -60 Td
+/F1 18 Tf
+1 0.4 0 RG
+(✓ Análise técnica gratuita) Tj
+0 -30 Td
+(✓ Proposta personalizada) Tj
+0 -30 Td
+(✓ Suporte especializado) Tj
+0 -30 Td
+(✓ Garantia de qualidade) Tj
+0 -80 Td
+/F2 16 Tf
+1 1 1 RG
+(Entre em contato conosco hoje mesmo!) Tj
+ET
+q
+0.05 0.1 0.2 RG
+50 50 512 692 re
+S
+Q
+q
+1 0.4 0 RG
+60 100 492 60 re
+f
+Q
+BT
+/F1 20 Tf
+1 1 1 RG
+306 130 Td
+(CONTE COM A FELTRIX) Tj
+ET
+endstream
+endobj
+
+21 0 obj
+<<
+/Length 700
+>>
+stream
+BT
+/F1 32 Tf
+1 0.4 0 RG
+306 700 Td
+(CONTATO) Tj
+0 -80 Td
+/F2 18 Tf
+1 1 1 RG
+-100 0 Td
+(Fale com Nossos Especialistas) Tj
+0 -80 Td
+/F1 16 Tf
+1 0.4 0 RG
+(📞 TELEFONE) Tj
+0 -30 Td
+/F3 14 Tf
+1 1 1 RG
+((11) 0000-0000) Tj
+0 -50 Td
+/F1 16 Tf
+1 0.4 0 RG
+(📧 E-MAIL) Tj
+0 -30 Td
+/F3 14 Tf
+1 1 1 RG
+(contato@feltrixsolucoes.com.br) Tj
+0 -50 Td
+/F1 16 Tf
+1 0.4 0 RG
+(🌐 WEBSITE) Tj
+0 -30 Td
+/F3 14 Tf
+1 1 1 RG
+(www.feltrixsolucoes.com.br) Tj
+0 -80 Td
+/F2 14 Tf
+0.9 0.9 0.9 RG
+(Soluções industriais de alta performance) Tj
+0 -20 Td
+(Tecnologia que conecta desempenho) Tj
+0 -60 Td
+/F3 12 Tf
+0.7 0.7 0.7 RG
+(© 2024 Feltrix Soluções. Todos os direitos reservados.) Tj
+ET
+q
+0.05 0.1 0.2 RG
+50 50 512 692 re
+S
+Q
+endstream
+endobj
+
 xref
-0 6
+0 22
 0000000000 65535 f 
 0000000009 00000 n 
 0000000058 00000 n 
-0000000115 00000 n 
+0000000149 00000 n 
 0000000274 00000 n 
+0000000399 00000 n 
 0000000524 00000 n 
+0000000649 00000 n 
+0000000774 00000 n 
+0000000899 00000 n 
+0000001025 00000 n 
+0000001152 00000 n 
+0000002003 00000 n 
+0000002070 00000 n 
+0000002131 00000 n 
+0000002198 00000 n 
+0000003249 00000 n 
+0000004250 00000 n 
+0000005401 00000 n 
+0000006352 00000 n 
+0000007403 00000 n 
+0000008254 00000 n 
 trailer
 <<
-/Size 6
+/Size 22
 /Root 1 0 R
 >>
 startxref
-593
+9005
 %%EOF
