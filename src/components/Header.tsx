@@ -11,7 +11,7 @@ const Header = () => {
               src="/lovable-uploads/6d952db2-159d-4c28-9cea-0224306dbe0a.png" 
               alt="Feltrix Logo" 
               className="h-[70px] max-h-[70px] w-auto object-contain"
-              style={{ marginRight: "30px" }}
+              style={{ marginRight: "80px" }}
             />
           </div>
           
