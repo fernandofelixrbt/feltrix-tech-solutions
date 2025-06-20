@@ -21,7 +21,7 @@ const HeroSection = () => {
         <div className="container mx-auto px-6 py-20 relative z-20">
           <div className="max-w-5xl mx-auto text-left">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 animate-fade-in leading-tight">
-              Feltrix Soluções<br />
+              {/Feltrix Soluções<br />*/}
               Tecnologia que Conecta{' '}
               <span className="text-feltrix-orange">Desempenho</span>
             </h1>
