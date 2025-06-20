@@ -1,15 +1,49 @@
 
 import React from 'react';
 import { Download } from 'lucide-react';
+import jsPDF from 'jspdf';
 
 const Header = () => {
-  const handleDownloadPDF = () => {
-    const link = document.createElement('a');
-    link.href = '/lovable-uploads/Feltrix_Pitch_Deck.pdf';
-    link.download = 'Feltrix_Apresentacao_Comercial.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+  const handleDownloadPDF = async () => {
+    try {
+      const pdf = new jsPDF({
+        orientation: 'landscape',
+        unit: 'mm',
+        format: 'a4'
+      });
+
+      const imageUrls = [
+        '/lovable-uploads/Pagina1-Apresentacao.png',
+        '/lovable-uploads/Pagina2-Apresentacao.png',
+        '/lovable-uploads/Pagina3-Apresentacao.png',
+        '/lovable-uploads/Pagina4-Apresentacao.png'
+      ];
+
+      for (let i = 0; i < imageUrls.length; i++) {
+        if (i > 0) {
+          pdf.addPage();
+        }
+
+        try {
+          // Adiciona a imagem à página atual
+          pdf.addImage(imageUrls[i], 'PNG', 0, 0, 297, 210); // A4 landscape dimensions
+        } catch (error) {
+          console.error(`Erro ao adicionar imagem ${i + 1}:`, error);
+        }
+      }
+
+      // Salva o PDF
+      pdf.save('Feltrix_Apresentacao_Comercial.pdf');
+    } catch (error) {
+      console.error('Erro ao gerar PDF:', error);
+      // Fallback para o PDF estático se houver erro
+      const link = document.createElement('a');
+      link.href = '/lovable-uploads/Feltrix_Pitch_Deck.pdf';
+      link.download = 'Feltrix_Apresentacao_Comercial.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
   };
 
   return (
