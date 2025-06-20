@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 
@@ -9,17 +8,13 @@ const HeroSection = () => {
       <div className="container mx-auto px-6 py-20 relative z-20">
         <div className="max-w-5xl mx-auto text-left">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 animate-fade-in leading-tight">
-            Tecnologia que Conecta{' '}
+            Feltrix: Tecnologia que Conecta{' '}
             <span className="text-feltrix-orange">Desempenho</span>
           </h1>
           
-          <h2 className="text-lg md:text-xl lg:text-2xl text-feltrix-light mb-6 animate-slide-in-left font-medium">
-            Somos a Feltrix Soluções
+          <h2 className="text-lg md:text-xl lg:text-2xl text-feltrix-light mb-8 animate-slide-in-left font-medium">
+            Especialistas em soluções de alta performance para a indústria de fibrocimento
           </h2>
-          
-          <p className="text-base md:text-lg text-feltrix-steel mb-6 animate-fade-in max-w-2xl">
-            Especialistas em soluções de alta performance para a indústria de fibrocimento.
-          </p>
           
           <p className="text-base md:text-lg text-feltrix-steel mb-12 animate-fade-in max-w-3xl">
             Na Feltrix, unimos tecnologia, engenharia de materiais e precisão industrial para maximizar sua produtividade. 
