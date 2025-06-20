@@ -7,26 +7,26 @@ const HeroSection = () => {
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden hero-gradient">
       {/* Background Logo - Elemento visual de apoio */}
       <div 
-        className="absolute top-1/2 right-0 transform -translate-y-1/2 translate-x-1/4 w-[400px] h-[400px] md:w-[600px] md:h-[600px] lg:w-[800px] lg:h-[800px] opacity-10 bg-no-repeat bg-contain z-5 pointer-events-none"
+        className="absolute top-1/2 right-0 transform -translate-y-1/2 translate-x-1/4 w-[520px] h-[520px] md:w-[780px] md:h-[780px] lg:w-[1040px] lg:h-[1040px] opacity-25 bg-no-repeat bg-contain z-5 pointer-events-none"
         style={{
           backgroundImage: `url('/lovable-uploads/6d952db2-159d-4c28-9cea-0224306dbe0a.png')`,
-          filter: 'brightness(1.5)',
+          filter: 'brightness(2) contrast(1.3) saturate(1.2)',
         }}
       />
       
       {/* Content */}
       <div className="container mx-auto px-6 py-20 relative z-20">
         <div className="max-w-5xl mx-auto text-left">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 animate-fade-in leading-tight">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 animate-fade-in leading-tight">
             Tecnologia a Serviço da{' '}
             <span className="text-feltrix-orange">Alta Performance</span>
           </h1>
           
-          <h2 className="text-xl md:text-2xl lg:text-3xl text-feltrix-light mb-6 animate-slide-in-left font-medium">
+          <h2 className="text-lg md:text-xl lg:text-2xl text-feltrix-light mb-6 animate-slide-in-left font-medium">
             Soluções Avançadas para a Indústria de Fibrocimento
           </h2>
           
-          <p className="text-lg md:text-xl text-feltrix-steel mb-12 animate-fade-in max-w-2xl">
+          <p className="text-base md:text-lg text-feltrix-steel mb-12 animate-fade-in max-w-2xl">
             Maximizando produtividade, durabilidade e eficiência
           </p>
           
