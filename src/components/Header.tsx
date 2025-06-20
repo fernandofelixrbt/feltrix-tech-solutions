@@ -10,7 +10,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/92631688-ab82-4a22-87bc-3410d1274f16.png" 
               alt="Feltrix Logo" 
-              className="h-[50px] md:h-[70px] w-auto"
+              className="h-[90px] md:h-[126px] w-auto"
             />
           </div>
           
