@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Header = () => {
@@ -12,6 +11,7 @@ const Header = () => {
               alt="Feltrix Logo" 
               className="w-auto"
               style={{ height: "70px", maxHeight: "70px", objectFit: "contain", marginRight: "30px" }}
+            />
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
