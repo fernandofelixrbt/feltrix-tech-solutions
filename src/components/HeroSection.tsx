@@ -5,9 +5,9 @@ import { Button } from '@/components/ui/button';
 const HeroSection = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden hero-gradient">
-      {/* Background Logo */}
+      {/* Background Logo - Maior e mais destacada */}
       <div 
-        className="absolute top-10 left-10 w-96 h-96 opacity-20 bg-no-repeat bg-contain z-0"
+        className="absolute top-0 left-0 w-[600px] h-[600px] md:w-[800px] md:h-[800px] opacity-15 bg-no-repeat bg-contain z-0"
         style={{
           backgroundImage: `url('/lovable-uploads/6d952db2-159d-4c28-9cea-0224306dbe0a.png')`,
           backgroundPosition: 'top left',
