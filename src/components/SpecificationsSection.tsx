@@ -49,15 +49,6 @@ const SpecificationsSection = () => {
             </div>
           ))}
         </div>
-        
-        <div className="mt-16 max-w-4xl mx-auto bg-gradient-to-r from-feltrix-graphite/40 to-feltrix-navy/40 rounded-2xl p-8 border border-feltrix-orange/20">
-          <h3 className="text-2xl font-bold text-white mb-4 text-center">Certificações e Garantias</h3>
-          <p className="text-feltrix-light text-center">
-            Todos os nossos produtos seguem rigorosos padrões de qualidade internacional, 
-            com certificações que garantem conformidade com as normas técnicas mais exigentes 
-            da indústria de fibrocimento.
-          </p>
-        </div>
       </div>
     </section>
   );
