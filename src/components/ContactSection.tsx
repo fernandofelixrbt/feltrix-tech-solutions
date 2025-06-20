@@ -178,8 +178,8 @@ const ContactSection = () => {
         <div className="mt-16 text-center">
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div>
-              <h4 className="text-lg font-bold text-feltrix-orange mb-2">Vendas</h4>
-              <p className="text-feltrix-light">vendas@feltrix.com.br</p>
+              <h4 className="text-lg font-bold text-feltrix-orange mb-2">Comercial</h4>
+              <p className="text-feltrix-light">contato@feltrix.com.br</p>
             </div>
             <div>
               <h4 className="text-lg font-bold text-feltrix-orange mb-2">Suporte Técnico</h4>
@@ -187,7 +187,7 @@ const ContactSection = () => {
             </div>
             <div>
               <h4 className="text-lg font-bold text-feltrix-orange mb-2">Telefone</h4>
-              <p className="text-feltrix-light">(11) 3000-0000</p>
+              <p className="text-feltrix-light">(11) 9.9856-1505</p>
             </div>
           </div>
         </div>
