@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import ContactModal from '@/components/ContactModal';
@@ -24,11 +25,11 @@ const HeroSection = () => {
               <span className="text-feltrix-orange">Desempenho</span>
             </h1>
             
-            <h2 className="text-lg md:text-xl lg:text-2xl text-feltrix-light mb-8 animate-slide-in-left font-medium">
+            <h2 className="text-lg md:text-xl lg:text-2xl text-white mb-8 animate-slide-in-left font-medium">
               Especialistas em soluções de alta performance para a indústria de fibrocimento
             </h2>
             
-            <p className="text-base md:text-lg text-feltrix-steel mb-12 animate-fade-in max-w-3xl">
+            <p className="text-base md:text-lg text-white mb-12 animate-fade-in max-w-3xl">
               Na Feltrix, unimos tecnologia, engenharia de materiais e precisão industrial para maximizar sua produtividade. 
               Nossas telas metálicas com solda a laser garantem mais durabilidade, eficiência e desempenho contínuo em processos Hatscheck.
             </p>
