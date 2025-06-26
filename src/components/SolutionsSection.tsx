@@ -15,6 +15,18 @@ const SolutionsSection = () => {
             otimizando o revestimento de tamizes com máxima durabilidade e eficiência.
           </p>
         </div>
+
+        {/* Imagem da tela metálica */}
+        <div className="max-w-4xl mx-auto mb-16">
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-feltrix-graphite/30 to-feltrix-steel/20 p-6">
+            <img
+              src="/lovable-uploads/28411905-0b0b-4d8b-97d5-f17d6f35ccab.png"
+              alt="Tela metálica Feltrix com solda a laser para máquinas Hatscheck"
+              className="w-full h-auto rounded-xl shadow-lg object-cover max-h-96"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-feltrix-dark-blue/20 to-transparent rounded-2xl pointer-events-none"></div>
+          </div>
+        </div>
         
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <div className="bg-feltrix-graphite/50 backdrop-blur-sm rounded-xl p-8 text-center border border-feltrix-steel/30 hover:border-feltrix-orange/50 transition-all duration-300 transform hover:scale-105">
