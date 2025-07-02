@@ -92,7 +92,7 @@ const Header = () => {
             </span>
           </div>
 
-          {/* Menu Desktop - mantém igual */}
+          {/* Menu Desktop */}
           <div className="hidden md:flex items-center space-x-8">
             {menuItems.map((item) => (
               <a 
@@ -103,14 +103,6 @@ const Header = () => {
                 {item.label}
               </a>
             ))}
-            
-            <button
-              onClick={handleDownloadPDF}
-              className="bg-feltrix-orange hover:bg-feltrix-orange/90 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg shadow-feltrix-orange/30 flex items-center space-x-2"
-            >
-              <Download className="w-4 h-4" />
-              <span>Download da Apresentação</span>
-            </button>
           </div>
 
           {/* Menu Mobile usando Drawer */}
@@ -142,18 +134,6 @@ const Header = () => {
                     </button>
                   ))}
                   
-                  <div className="pt-4 border-t border-feltrix-graphite/30">
-                    <button
-                      onClick={() => {
-                        handleDownloadPDF();
-                        setIsDrawerOpen(false);
-                      }}
-                      className="w-full bg-feltrix-orange hover:bg-feltrix-orange/90 text-white px-4 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center space-x-2"
-                    >
-                      <Download className="w-4 h-4" />
-                      <span>Download da Apresentação</span>
-                    </button>
-                  </div>
                 </div>
               </DrawerContent>
             </Drawer>

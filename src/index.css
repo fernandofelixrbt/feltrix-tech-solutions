@@ -126,6 +126,7 @@
 /* Smooth scroll behavior */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 100px; /* Ajusta para altura do header fixo */
 }
 
 /* Custom scrollbar */
