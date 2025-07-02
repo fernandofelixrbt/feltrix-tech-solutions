@@ -65,12 +65,12 @@ export default {
 				},
 				// Feltrix Brand Colors
 				feltrix: {
-					orange: '#FF6B35',
-					'dark-blue': '#0A1628',
-					navy: '#1A2332',
-					graphite: '#2D3748',
-					steel: '#4A5568',
-					light: '#E2E8F0'
+					orange: 'hsl(var(--feltrix-orange))',
+					'dark-blue': 'hsl(var(--feltrix-dark-blue))',
+					navy: 'hsl(var(--feltrix-navy))',
+					graphite: 'hsl(var(--feltrix-graphite))',
+					steel: 'hsl(var(--feltrix-steel))',
+					light: 'hsl(var(--feltrix-light))'
 				}
 			},
 			borderRadius: {
